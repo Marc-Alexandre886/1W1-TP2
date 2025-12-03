@@ -6,4 +6,4 @@ Final fantasy 7 est un jeu vidéo de « Square Enix » sorti le 31 janvier 1997 
 
 - Auteur: Marc-alexandre Di Marco François
 - Cours: 1W1-Mise en page web
-- Github-page: 
+- Github-page: https://marc-alexandre886.github.io/1W1-TP2/
