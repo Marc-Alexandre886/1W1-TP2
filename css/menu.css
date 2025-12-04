@@ -1,5 +1,12 @@
 /* section du menu */
 
+.navigation__bouton{
+    position: fixed;
+    top: 0;
+    right: 170px;
+}
+
+
 .hero__menu a{
     display: inline-block;
     padding: 5px;
@@ -17,7 +24,7 @@
 .hero__menu{
     position: fixed;
     z-index: 1;
-    top: 20px;
+    top: 70px;
     right: 20px;
     text-align: right;
 }

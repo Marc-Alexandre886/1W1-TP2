@@ -3,7 +3,9 @@
 *{
     box-sizing: border-box;
 }
-
+html {
+    font-size: 14px;
+}
 body{
     margin: 0;
     padding: 0;
@@ -11,14 +13,13 @@ body{
 
 h1, h2, h3, caption{
     margin: 0;
-    padding:10px;
+    padding: 10px 0;
     font-family: "Playwrite DE Grund", cursive;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
 p, li, tr{
-    width: 90%;
     font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -123,16 +124,18 @@ figure{
 }
 
 table{
+    display: flex;
+    flex-wrap: wrap;
     border-collapse: collapse;
     width: 100%;
     height: 80vh;
     border: 1px dotted #31bdb6;
 }
 
-td, th{
-    color: #000000;
+tr, td, th{
+    color: #000;
     border: 1px solid #111d25;
-    font-size: 1.1rem;
+    font-size: clamp(0.2rem, 7vw, 1.1rem);
     padding: 5px;
     text-align: left;
 }
@@ -160,53 +163,7 @@ tfoot{
     border: none;
 }
 
-/* section des articles */
-
-.article__flex{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.article__flex article{
-    padding: 0 20px;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 450px;
-}
-
-.article__contenu{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.article__contenu p{
-    font-size: 14px;
-}
-
-.article__contenu li{
-    font-size: 16px;
-}
-
-.article__galerie{
-    padding: 100px 0;
-}
-
-.article__galerie img{
-    display: block;
-    width: 100%;
-    object-fit: cover;
-}
-
-.article__galerie figcaption{
-    background-color: #ffffff3a;
-    padding: 10px 0;
-    border-radius: 5px;
-    text-align: center;
-    font-style: italic;
-    font-weight: bold;
-}
+/* Sections des articles */
 
 .creation{
     background: linear-gradient(to bottom, transparent 80%, black 100%), url("../images/ff7_fond_article1.jpg");
@@ -323,11 +280,11 @@ tfoot{
     padding: 0 50px;
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 25%;
+    flex-basis: 50%;
 }
 
 .bibliographie{
-    flex-grow: 2;
+    flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 50%;
 }
@@ -348,13 +305,12 @@ tfoot{
 .img__sociaux{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-around;
+    gap: 100px;
+    justify-content: center;
     width: 100%;
 }
 
 .img__sociaux img:hover{
     background-color: #ffffff50;
-    margin: 0 5px;
     border-radius: 5px;
 }
