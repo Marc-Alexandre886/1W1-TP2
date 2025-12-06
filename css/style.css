@@ -202,11 +202,12 @@ tfoot{
 }
 
 .Videos video{
+    position: relative;
+    right: 30px;
     filter: blur(1px) opacity(0.9);
     transform: scale(0.8);
     transition: filter 500ms;
     transition: transform 500ms;
-    padding: 5vh 5px;
 }
 
 .Videos video:hover{
