@@ -206,7 +206,7 @@ tfoot{
     transform: scale(0.8);
     transition: filter 500ms;
     transition: transform 500ms;
-    margin: 5vh 5px;
+    padding: 5vh 5px;
 }
 
 .Videos video:hover{
