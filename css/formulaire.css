@@ -12,6 +12,11 @@
     justify-content: space-around;
 }
 
+label [type = "radio"]{
+    position: relative;
+    top: 12px;
+}
+
 input{
     padding: 5px 0;
     width: 100%;
