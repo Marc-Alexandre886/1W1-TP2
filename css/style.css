@@ -124,18 +124,16 @@ figure{
 }
 
 table{
-    display: flex;
-    flex-wrap: wrap;
     border-collapse: collapse;
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     border: 1px dotted #31bdb6;
 }
 
 tr, td, th{
     color: #000;
     border: 1px solid #111d25;
-    font-size: clamp(0.2rem, 7vw, 1.1rem);
+    font-size: clamp(0.5rem, 1vw, 1.1rem);
     padding: 5px;
     text-align: left;
 }
