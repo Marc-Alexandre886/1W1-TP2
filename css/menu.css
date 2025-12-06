@@ -63,5 +63,5 @@
 }
 
 #chk-burger:checked ~ .navigation__menu{
-    transform: translateX(0);
+    transform: translateX(40%);
 }
