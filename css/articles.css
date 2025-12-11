@@ -3,6 +3,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 10px 0;
     gap: 20px;
 }
 
@@ -15,13 +16,17 @@
 
 .article__contenu p, .article__contenu li{
     font-size: 18px;
-    line-height: 1.25;
+    line-height: 1.5;
 }
 
 .article__galerie{
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 45%;
+}
+
+.article__galerie figure{
+    padding: 10px 0;
 }
 
 .ordre__inverse{

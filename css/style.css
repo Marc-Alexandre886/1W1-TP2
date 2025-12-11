@@ -254,8 +254,8 @@ tfoot{
 }
 
 .pied a:hover{
-    color: rgb(48, 48, 255);
-    background-color: #adffcf;
+    color: rgba(48, 48, 255, 0.5);
+    background-color: #adffcfad;
     border-radius: 5px;
     transform: scale(1.1);
 }

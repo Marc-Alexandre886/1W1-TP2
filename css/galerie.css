@@ -13,19 +13,19 @@
 }
 
 .galerie__figure figcaption{
-    text-decoration: none;
     padding: 2px;
     color: #000   
 }
 
 .galerie__figure figcaption:hover {
-    color: rgb(48, 48, 255);
-    background-color: #adffcf;
+    color: rgba(48, 48, 255, 0.5);
+    background-color: #adffcfad;
     border-radius: 5px;
     transform: scale(1.1);
 }
 
 .galerie__figure a{
+    text-decoration: none;
     flex-basis: 170px;
     filter: blur(1px) opacity(0.9);
     transform: scale(1);
