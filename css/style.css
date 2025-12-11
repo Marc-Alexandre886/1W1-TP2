@@ -241,16 +241,16 @@ tfoot{
     flex-basis: 50%;
 }
 
+.pied__enfant, .pied h3, .pied a{
+    text-decoration: none;
+    padding: 2px;
+    color: #dbc7dd;
+}
+
 .bibliographie{
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 250px;
-}
-
-.pied a{
-    text-decoration: none;
-    padding: 2px;
-    color: #000;
 }
 
 .pied a:hover{
