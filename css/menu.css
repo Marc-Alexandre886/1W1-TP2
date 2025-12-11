@@ -36,7 +36,7 @@
 }
 
 .navigation__menu{
-    transform: translateX(185%);
+    transform: translateX(250%);
     transition: transform 400ms linear;
 }
 
@@ -47,7 +47,7 @@
     text-align: center;
     padding: 5px;
     color: #64bb5c;
-    font-size: 24px;
+    font-size: clamp(10px, 4vh, 24px);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transform: scale(1);
 }
@@ -63,5 +63,5 @@
 }
 
 #chk-burger:checked ~ .navigation__menu{
-    transform: translateX(40%);
+    transform: translateX(35%);
 }
