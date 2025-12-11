@@ -1,0 +1,41 @@
+/* Section de la galerie */
+
+.galerie__figure{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.galerie__figure img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.galerie__figure figcaption{
+    text-decoration: none;
+    padding: 2px;
+    color: #000   
+}
+
+.galerie__figure figcaption:hover {
+    color: rgb(48, 48, 255);
+    background-color: #adffcf;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+.galerie__figure a{
+    flex-basis: 170px;
+    filter: blur(1px) opacity(0.9);
+    transform: scale(1);
+    transition: filter 500ms;
+    transition: transform 500ms;
+}
+
+.galerie__figure a:hover{
+    filter: none;
+    transform: scale(1.15);
+    transition: filter 500ms;
+    transition: transform 500ms;
+}

@@ -77,7 +77,7 @@ figure{
 
 .hero__titre{
     color: #fff;
-    font-size: 3rem;
+    font-size: clamp(1rem, 5vw, 3rem);
 }
 
 .a__bouton{
@@ -199,22 +199,6 @@ tfoot{
     background-size: cover;
 }
 
-.Videos video{
-    position: relative;
-    right: 30px;
-    filter: blur(1px) opacity(0.9);
-    transform: scale(0.8);
-    transition: filter 500ms;
-    transition: transform 500ms;
-}
-
-.Videos video:hover{
-    filter: none;
-    transform: scale(0.85);
-    transition: filter 500ms;
-    transition: transform 500ms;
-}
-
 /* section de la galerie */
 
 .phototheque > .centre{
@@ -226,33 +210,6 @@ tfoot{
     background: linear-gradient(to bottom, transparent 80%, black 100%), url("../images/ff7_fond_galerie.jpg");
     background-position: 50%;
     background-size: cover;
-}
-
-.galerie__figure{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.galerie__figure img{
-    display: block;
-    width: 100%;
-    object-fit: cover;
-}
-
-.galerie__figure a{
-    padding: 10px 15px;
-    filter: blur(1px) opacity(0.9);
-    transform: scale(1);
-    transition: filter 500ms;
-    transition: transform 500ms;
-}
-
-.galerie__figure a:hover{
-    filter: none;
-    transform: scale(1.15);
-    transition: filter 500ms;
-    transition: transform 500ms;
 }
 
 /* section pied de page */
@@ -268,14 +225,13 @@ tfoot{
 }
 
 .pied{
+    gap: 20px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-between;
 }
 
 .pied__enfant{
-    padding: 0 50px;
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 50%;
@@ -284,7 +240,7 @@ tfoot{
 .bibliographie{
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 50%;
+    flex-basis: 250px;
 }
 
 .pied a{
@@ -303,7 +259,7 @@ tfoot{
 .img__sociaux{
     display: flex;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: clamp(5px, 4vw, 100px);
     justify-content: center;
     width: 100%;
 }
