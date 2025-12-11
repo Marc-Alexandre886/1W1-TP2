@@ -80,6 +80,10 @@ figure{
     font-size: clamp(1rem, 5vw, 3rem);
 }
 
+.automne{
+    color: #cf6f00;
+}
+
 .a__bouton{
     border-radius: 5px;
     padding: 5px 5px;
