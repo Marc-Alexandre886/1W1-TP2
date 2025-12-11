@@ -13,6 +13,10 @@
     flex-basis: 52%;
 }
 
+.article__contenu h1{
+    line-height: 1.5;
+}
+
 
 .article__contenu p, .article__contenu li{
     font-size: 18px;
