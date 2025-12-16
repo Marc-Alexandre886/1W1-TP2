@@ -32,9 +32,6 @@
     background-color: #000000a2;
     padding: 10px;
     border-radius: 10px;
-}
-
-.navigation__menu{
     transform: translateX(250%);
     transition: transform 400ms linear;
 }
