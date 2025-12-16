@@ -98,11 +98,11 @@ ol li{
     bottom: 10px;
     right: 50px;
     filter: hue-rotate(30deg);
-    transition: filter 500ms;
+    transition: filter 1s;
 }
 
 .svg:hover{
     filter: none;
-    transition: filter 500ms;
+    transition: filter 1s;
 }
 
